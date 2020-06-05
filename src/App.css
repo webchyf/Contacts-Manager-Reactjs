@@ -1,0 +1,256 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* search Field*/
+.searchField {
+    width: 100%;
+    background: #f1f3f4;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.searchField input{
+  font-size: 16px;
+  background: inherit;
+  border: 0;
+  color: #acadae;
+  width: 95%;
+  outline: none;
+}
+
+.searchField i{
+  font-size: 18px;
+  color: #5f6368;
+  border: 0;
+  padding: 5px;
+  margin-right: 20px;
+}
+.searchName {
+    padding: 0;
+    background: none;
+    color: crimson;
+    font-size: 24px;
+    margin: 0;
+    font-style: italic;
+}
+
+/* side Bar*/
+.side{
+    margin-top: 10px;
+}
+.side span i {
+    font-size: 40px;
+    color: #1a73e8;
+    margin-right: 10px;
+}
+.side span p {
+    font-size: 24px;
+    color: #676767;
+    font-weight: 600;
+    padding: 5px;
+}
+.side span{
+    display: inline-flex;
+}
+.side button{
+    border: 0px solid #acadae;
+    border-radius: 50px;
+    background: #fff;
+    padding: 10px 25px;
+    display: inline-flex;
+    box-shadow: -1px 1px 4px rgba(0,0,0,.28);
+    margin-top: 20px;
+}
+.side button:hover,.side button:focus,.side button:active {
+    outline: none;
+    background: #fafafa;
+    box-shadow: 0px 4px 12px rgba(0,0,0,.28);
+}
+
+.side button i{
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 18px;
+color: rgb(216, 19, 58);
+}
+.side button span{
+    padding-top: 5px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.side h2{
+    background: #e8f0fe;
+    color: #2277e8;
+    padding: 15px 30px;
+    font-size: 20px;
+    margin-left: -15px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-top: 30px;
+    width: 98%;
+}
+.side h2 a{
+        display: flex;
+    justify-content: space-between;
+}
+hr {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #e2dfdf;
+    margin-left: -15px;
+}
+ul{
+    list-style: none;
+    padding: 0px 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+ul i{
+    margin-right: 30px;
+
+}
+ul  li {
+    padding: 10px 30px;
+    color: #202124;
+    margin-left: -30px;
+    
+}
+ul li span{
+    float: right;
+}
+
+ul li:hover {
+    padding: 10px 30px;
+    color: #2277e8 !important;
+    background: aliceblue;
+    margin-left: -30px;
+        border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    
+}
+
+/* Contacts*/
+tr:hover{
+    background-color: #f1f3f4;
+}
+tr{
+    color: #6d6969;
+}
+
+.borderBottomLine{
+    border-bottom: 1px solid #e2dfdf;
+    margin-bottom: 5px;
+}
+.contactTable{
+  width: 100%;   
+}
+
+th{
+    padding: 15px 20px;
+}
+td{
+    padding: 20px 20px;
+}
+
+td span {
+    padding: 10px 15px;
+    background: #2277e8;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #fff;
+    margin-right: 20px;
+}
+td button{
+    border: 0;
+    background: inherit;
+}
+td i{
+    color: #cacdd2;
+}
+
+.fa-user-edit{
+    margin-right: 5px;
+}
+.fa-user-edit:hover{
+    color: #609dee ;
+}
+
+.fa-trash-alt:hover{
+     color: #fd5555;
+}
+.modal{
+    top: 25%;
+}
+.modal-content{
+    border: none;
+}
+
+#deleteModal div{
+   border: none;
+}
+
+#deleteModal .modal-content{
+    width: 70%;
+}
+
+.form-group{
+    display: inline-flex;
+    width: 100%;
+}
+.form-group i{
+  font-size: 16px;
+  color: #acadae;
+  margin-right: 35px;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+.form-group .fa-user-circle{
+    font-size: 40px;
+    margin: 0;
+    margin-right: 23px;
+    margin-left: 0;
+    color: #2277e8;
+}
+.lastName{
+    margin-left: 10px;
+}
+.modal-body{
+    padding: 10px 20px;
+}
+
+.form-control{
+    border: none;
+    border-radius: 0;
+}
+.form-control:focus{
+    box-shadow: none;
+    border: 1px solid #66afe9;
+}
+.modal-title span {
+    float: right;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 0;
+    color: #fff;
+    margin: 0;
+}
+
+.modal-title span i{
+    color: #fff;
+    margin-right: 8px;
+}
+.active{
+   text-decoration: none;
+}
+
+a:focus,a:hover,a:active{
+    outline: 0px auto -webkit-focus-ring-color;
+    text-decoration: none;
+    color: #fd3b3b;
+}
